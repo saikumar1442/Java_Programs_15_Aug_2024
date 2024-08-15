@@ -383,5 +383,7 @@ SELECT max(Salary) FROM Employee WHERE Salary NOT IN (
 
 SELECT DEPTID, MAX(SALARY) FROM EMPLOYEEDETAILS GROUP BY DEPTID;			
 
-5. 									  
+5. How to find the maximum salary in a Employee table.
+
+SELECT MAX(salary) AS highest_salary FROM EMPLOYEE
 
