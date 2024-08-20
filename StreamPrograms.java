@@ -590,6 +590,38 @@ System.out.println("Index of 'e' from index 5: " + index3); // Output: 10
 	     System.out.println("Calculate the sum of all non-zero elements in the 2D arrays : "+summ); // Output : 10
 	     
 
+
+	 List<Integer> asList5 = Arrays.asList(2,4,7,1,9,5);
+	     
+	     Integer secondSmallestElement = asList5.stream().sorted().toList().get(1);  
+	     
+	     System.out.println("Find the second smallest element in the list ::: "+secondSmallestElement); // Output : 2
+	
+	     
+	     
+	     
+			List<Integer> numLists = Arrays.asList(1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0);
+			int count = 0;
+			for (int i = 0; i < numLists.size(); i++) {
+				if (numLists.get(i) == 0) {
+					count++;
+				} else
+					count = 0;
+			}
+			System.out.println("To Find the consecutive zeros in the list ::: "+count);
+	
+			
+			
+			
+			int totalzerosCount = 0;
+
+			for(int i = 0; i<numLists.size();i++) {
+				if(numLists.get(i) == 0) {
+					totalzerosCount ++;
+				}
+				
+			}
+			System.out.println("Find the Total Zero Count in the List:"+totalzerosCount);	
 	
 	
 
