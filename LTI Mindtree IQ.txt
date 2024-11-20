@@ -905,6 +905,101 @@ Write a ExecutorService Program
 
 ===================================================================================
 
+theoretical : not practical
+
+elaborate : to give more details.
+
+Virtusa :
+===========
+
+which type of data type will return the consumer and supplier in Java 8
+
+can you elaborate the map()
+
+what are the Functional Interfaces in Java 8 and before Java 8
+
+what are the design pattern, explain the saga and circuit breaker D P
+
+when can we use the rest api methods and explain
+
+diff between controller and restcontroller
+
+java 8 features and Functional Interfaces and Lambda Exp
+
+If we have multiple employees and which is having the same employee id and need to sort the names based on the id using Java 8
+
+
+
+Rate Limiting in Microservices :
+
+Rate limiting can be used to prevent this by controlling the number of requests a service can send to another service within a specific timeframe
+
+
+
+LtiMindtree :
+===================
+Client Interview : 11-Nov-2024 night 10:00 PM to 11:00 PM
+
+Citi Bank : Sanjiv Kumar 
+
+
+Explain the Spring Boot Application where it will start
+
+What is the main purpose of your project(UTS Project)
+
+Diff between Spring and Springboot 
+
+How do you convert the Oracle data base details (Query) into the Json format
+
+How do you show the database details in the response
+
+Explain the List, set and Map and why
+
+what is Synchronous and Asynchronous
+
+Explain the Component, Repository, Service and Controller
+
+What is the IoC Container in Spring and how many types
+
+What is artifact id
+
+Are we sending the Jar or War file to client
+
+How to run the War file the Eclipse IDE
+
+What is Eureka Server and explain briefly.
+
+What is Microservices
+
+If we have any issue in application, how do we check that which service is getting issue(failed)
+
+What are the Spring Components ? Spring Core, Spring JDBC, Spring Data JPA, Spring AOP and Spring Web
+
+Diff between JDBC and Spring Data
+
+Is your application is Web application or how it was?
+
+what is Stream API and Explain briefly.
+
+What is RequestMapping and Actuator
+
+What is ResponseEntity and how do we provide that?
+
+Where do you deploy the application 
+
+Which database are you using and how/where do you configure database details in spring boot 
+
+is it same database credentials were used in the dev and test and prod server ?
+
+Are you working with interface/UI ? Ans : No (Already developed interface)
+
+what are the projects have you done in the past companies and who are the clients
+
+what is hartford client will do and what was the requirement(peoject usages)
+
+
+
+
 
 
 
