@@ -46,43 +46,16 @@ Hello Verify with Infosys :
 Mail Id : saikumar9.javadev@gmail.com
 Password : Javadev@4825
 
-
 ----------------------------------------
 
-Boeing :
-===========
-
-Username : saikumardev777@gmail.com
-password :  Arunachala@4825
-
-Infosys :
-=========
-Username : saikumardev777@gmail.com
-Password : Arunachala@4825
-Mobile Number : 7702994825
-
-CGI :
-=====
-Username : saikumardev777@gmail.com
-Password : Arunachala@4825
-Mobile Number : 9392421442
-
-IBM :
-==========
-Username : saikumardev777@gmail.com
-password : Javadeveloper@994825
-Mobile Number : 9392421442
-Your reference number is: 11574878
-
-Accenture :
-==========
-Username : saikumardev777@gmail.com
-password : Javadev@994825
-Mobile Number : 9392421442
+Cognizant Personal Mail :
+-------------------------
+Gmail : saikumardev999@gmail.com
+Password : 9392421442
 
 
 Leetcode Logins :
-
+----------------------
 username : saikumarpayasam
 mail : saikumardev999@gmail.com
 password : Javadev@4825
@@ -111,15 +84,9 @@ Embark Preoffer : I have accepted the declaration on 24-Oct-2024.
 Mail : saikumardev456@gmail.com
 Password : Javadev@994825
 ================================
-Accenture :
-Mail : saikumardev456@gmail.com
-Password : Javadev@994825
-
-============
 
 LinkedIn Profile Logins :
 -------------------------
-
 Email : saikumardev456@gmail.com
 Password : Madhava@4825
 
@@ -134,7 +101,6 @@ Password : Arunachala.4825
 github URL : https://github.com/saikumar1442
 
 
-
 mail : saikumar7.javadev@gmail.com
 
 username : sai32
@@ -143,7 +109,7 @@ Password : Javadev.994825
 github URL : https://github.com/saikumar1442
 
 LTIMindtree :
-
+--------------
 Mail : saikumardev456@gmail.com
 Password : Javadev@994825
 
