@@ -192,8 +192,8 @@ public class JavaStreamPrograms {
 		
 		
 		List<Integer> multipliedNumbers = listVal.stream()
-													.map(n -> n * 2) // Multiply each element by 2
-													.collect(Collectors.toList());
+								.map(n -> n * 2) // Multiply each element by 2
+								.collect(Collectors.toList());
 
 		System.out.println("Multiplied elements: " + multipliedNumbers); // Output : [6, 4, 8, 2, 10, 16]
 		
@@ -250,14 +250,14 @@ public class JavaStreamPrograms {
 			
 			
 			List<Integer> evenOddSameList = intList.stream().sorted((a,b)-> {if (a % 2 == 0 && b % 2 != 0) {
-																				return -1;
-																			} else if (a % 2 != 0 && b % 2 == 0) {
-																				return 1;
-																			} else {
-																				return Integer.compare(a, b);
-																			}
-																			
-																			}).distinct().collect(Collectors.toList());
+															return -1;
+														} else if (a % 2 != 0 && b % 2 == 0) {
+															return 1;
+														} else {
+															return Integer.compare(a, b);
+														}
+														
+														}).distinct().collect(Collectors.toList());
 			
 			
 			System.out.println("To find the Even and Odd Values in the same List ::: "+evenOddSameList); //Output : [4, 6, 8, 5, 7, 45]
@@ -289,8 +289,8 @@ public class JavaStreamPrograms {
 			map.put("Lisa", 89);
 			
 			LinkedHashMap<String,Integer> sortedMap = map.entrySet().stream()
-																  .sorted(Comparator.comparing(Map.Entry::getKey))
-																  .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a,b) -> a, LinkedHashMap::new));
+											  .sorted(Comparator.comparing(Map.Entry::getKey))
+											  .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a,b) -> a, LinkedHashMap::new));
 			
 			System.out.println("Sorting the HashMap by using keys ::: "+sortedMap);  //Output : {Arunkumar=86, Jyous=87, Klusener=82, Lisa=89, Narayan=95, Xiangh=91}
 	    
@@ -354,7 +354,8 @@ public class JavaStreamPrograms {
 			//i::1
 			//J::1
 
-			str.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(c -> c, Collectors.counting())).forEach((chara, fre) -> System.out.println(chara + ":"+fre));
+			str.chars().mapToObj(c -> (char) c)
+				.collect(Collectors.groupingBy(c -> c, Collectors.counting())).forEach((chara, fre) -> System.out.println(chara + ":"+fre));
 
 			//Output :
 
